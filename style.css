@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+  width: 318px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 15px;
+  border-radius: 16px;
+  text-align: center;
+  margin: 40px 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card__image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card__heading {
+  margin-top: 19px;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.card__info {
+  color: hsl(220, 15%, 55%);
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding: 0 10px;
+}
